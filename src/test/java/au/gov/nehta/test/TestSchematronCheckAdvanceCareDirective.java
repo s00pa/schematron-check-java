@@ -12,12 +12,11 @@ import org.xml.sax.SAXParseException;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
 
 public class TestSchematronCheckAdvanceCareDirective {
 
-    // Test the schema check against a CDA document with a known
-    // number of schema and schematron errors
+    // Test the schema check against a CDA document with no known
+    // schema or schematron errors
     @Test
     public void testSimpleInterface() {
 
@@ -91,6 +90,7 @@ public class TestSchematronCheckAdvanceCareDirective {
 
     /**
      * Read the document in from the given location.
+     *
      * @param xmlLocation The location of the XML file
      * @return The parsed document
      */
