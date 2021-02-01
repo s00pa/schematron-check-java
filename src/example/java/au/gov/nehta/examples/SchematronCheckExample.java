@@ -14,25 +14,25 @@ public class SchematronCheckExample {
     public static void main(String[] args) {
         // The simplest way to invoke the check is using
         // the template path and schematron level
-        SchematronCheckResult check = Schematron.check("resources/test/ePrescription/",
-                "ccd-3B.sch",
-                "resources/test/eprescription-max.xml");
+        SchematronCheckResult check = Schematron.check("resources/test/AdvanceCareDirective/",
+                "ccd-3A.sch",
+                "resources/test/generated_xml/advance_care_directive/acd-max-java.xml");
 
         System.out.println("# Of Schema errors:\t" + check.schemaErrors.size());
         System.out.println("# Of Schematron errors:\t" + check.schematronErrors.size());
 
         // Alternatively, you may specify complete paths
         check = Schematron.check(
-                "resources/test/ePrescription/",
-                "resources/test/ePrescription/cdar2/CDA.xsd",
-                "resources/test/ePrescription/cdar2/EXTENSION.xsd",
-                "resources/test/ePrescription/schematron/ccd-3B.sch",
-                "resources/test/ePrescription/schematron/schematron-Validator-report.xsl",
-                "resources/test/eprescription-max.xml");
+                "resources/test/AdvanceCareDirective/",
+                "resources/test/AdvanceCareDirective/cdar2/CDA.xsd",
+                "resources/test/AdvanceCareDirective/cdar2/EXTENSION.xsd",
+                "resources/test/AdvanceCareDirective/schematron/ccd-3A.sch",
+                "resources/test/AdvanceCareDirective/schematron/schematron-Validator-report.xsl",
+                "resources/test/generated_xml/advance_care_directive/acd-max-java.xml");
 
         // Both methods have an alternative that accepts an in-memory xml document
         Document xml = loadExampleDocument();
-        check = Schematron.check("resources/test/ePrescription/", "ccd-3B.sch", xml);
+        check = Schematron.check("resources/test/AdvanceCareDirective/", "ccd-3A.sch", xml);
     }
 
     private static Document loadExampleDocument() {
@@ -46,7 +46,7 @@ public class SchematronCheckExample {
 
         try {
             builder = documentBuilderFactory.newDocumentBuilder();
-            doc = builder.parse("resources/test/eprescription-max.xml");
+            doc = builder.parse("resources/test/generated_xml/advance_care_directive/acd-max-java.xml");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
