@@ -34,10 +34,10 @@ import java.util.List;
  */
 public class Schematron {
 
-    private static final String SCHEMATRON_SKELETON_REL_LOCATION = File.separator + "schematron" + File.separator + "schematron-Validator-report.xsl";
-    private static final String SCHEMATRON_DIR = File.separator + "schematron" + File.separator;
-    private static final String EXTENSION_XSD_REL_LOCATION = File.separator + "cdar2" + File.separator + "EXTENSION.xsd";
-    private static final String CDA_XSD_REL_LOCATION = File.separator + "cdar2" + File.separator + "CDA.xsd";
+    private static final String SCHEMATRON_SKELETON_REL_LOCATION = "/schematron/schematron-Validator-report.xsl";
+    private static final String SCHEMATRON_DIR = "/schematron/";
+    private static final String EXTENSION_XSD_REL_LOCATION = "/cdar2/EXTENSION.xsd";
+    private static final String CDA_XSD_REL_LOCATION = "/cdar2/CDA.xsd";
 
     private static final HashMap<String, Node> transformCache = new HashMap<>();
     private static final TransformerFactory factory = getFactory();
