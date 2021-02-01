@@ -30,8 +30,8 @@ public class TestSchematronCheckSpecialistLetter {
         Assert.assertEquals(0, result.schematronErrors.size());
     }
 
-    // Test the schema check against a CDA document with a known
-    // number of schema and schematron errors
+    // Test the schema check against a CDA document with no known
+    // schema or schematron errors
     @Test
     public void testSimpleInterfaceWithDocument() {
 
@@ -45,8 +45,8 @@ public class TestSchematronCheckSpecialistLetter {
         Assert.assertEquals(0, result.schematronErrors.size());
     }
 
-    // Test the schema check against a CDA document with a known
-    // number of schema and schematron errors
+    // Test the schema check against a CDA document with no known
+    // schema or schematron errors
     @Test
     public void testLargeInterface() {
         SchematronCheckResult result;
