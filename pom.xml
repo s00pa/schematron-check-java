@@ -56,7 +56,6 @@
             <groupId>net.sf.saxon</groupId>
             <artifactId>Saxon-HE</artifactId>
             <version>10.3</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
