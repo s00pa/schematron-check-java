@@ -64,18 +64,18 @@ public class Schematron {
      * @param templatePath   the path of the root Schematron template, for example "C:/mySchematron/e-Discharge Summary/"
      * @param schematronName the location Schematron file to use for this test, relative to '[templatePath]/schematron' .
      *                       eg: "ccd-3B.sch"
-     * @param XmlToCheck     the path of the XML file to check
+     * @param xmlToCheck     the path of the XML file to check
      * @return SchematronCheckResult containing both schema and schematron errors.
      * @throws RuntimeException If a specified or required file cannot be found;
      */
-    public static SchematronCheckResult check(String templatePath, String schematronName, String XmlToCheck) {
+    public static SchematronCheckResult check(String templatePath, String schematronName, String xmlToCheck) {
 
         String schemaLocation = templatePath + CDA_XSD_REL_LOCATION;
         String schemaExtensionLocation = templatePath + EXTENSION_XSD_REL_LOCATION;
         String schematronPath = templatePath + SCHEMATRON_DIR + schematronName;
         String skeletonPath = templatePath + SCHEMATRON_SKELETON_REL_LOCATION;
 
-        return doCheck(templatePath, schemaLocation, schemaExtensionLocation, schematronPath, skeletonPath, XmlToCheck);
+        return doCheck(templatePath, schemaLocation, schemaExtensionLocation, schematronPath, skeletonPath, xmlToCheck);
     }
 
     /**
@@ -91,18 +91,18 @@ public class Schematron {
      * @param templatePath   the path of the root Schematron template, for example "C:/mySchematron/e-Discharge Summary/"
      * @param schematronName the location Schematron file to use for this test, relative to '[templatePath]/schematron' .
      *                       eg: "ccd-3B.sch"
-     * @param XmlToCheck     w3c Document XML file to check
+     * @param xmlToCheck     w3c Document XML file to check
      * @return SchematronCheckResult containing both schema and schematron errors.
      * @throws RuntimeException If a specified or required file cannot be found;
      */
-    public static SchematronCheckResult check(String templatePath, String schematronName, Document XmlToCheck) {
+    public static SchematronCheckResult check(String templatePath, String schematronName, Document xmlToCheck) {
 
         String schemaLocation = templatePath + CDA_XSD_REL_LOCATION;
         String schemaExtensionLocation = templatePath + EXTENSION_XSD_REL_LOCATION;
         String schematronPath = templatePath + SCHEMATRON_DIR + schematronName;
         String skeletonPath = templatePath + SCHEMATRON_SKELETON_REL_LOCATION;
 
-        return doCheck(templatePath, schemaLocation, schemaExtensionLocation, schematronPath, skeletonPath, XmlToCheck);
+        return doCheck(templatePath, schemaLocation, schemaExtensionLocation, schematronPath, skeletonPath, xmlToCheck);
     }
 
     /**
