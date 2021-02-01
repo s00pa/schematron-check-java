@@ -1,0 +1,2833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:ns2="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0">
+<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+<templateId extension="3.4" root="1.2.36.1.2001.1001.101.100.1002.4"/>
+<templateId extension="1.0" root="1.2.36.1.2001.1001.100.149"/>
+<id root="2.25.157742412253914562636338983740945410430"/>
+<code code="18842-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Discharge Summarization Note"/>
+<title>Discharge Summary</title>
+<effectiveTime value="20210201103333+1000"/>
+<confidentialityCode nullFlavor="NA"/>
+<languageCode code="en-AU"/>
+<versionNumber value="1"/>
+<ns2:completionCode code="F" codeSystem="1.2.36.1.2001.1001.101.104.20104" codeSystemName="NCTIS Document Status Values" displayName="Final"/>
+<recordTarget typeCode="RCT">
+<patientRole classCode="PAT">
+<id root="8b9c194b-4c63-4e9c-90fa-9e8f93e3bd6a"/>
+<addr use="H">
+<streetAddressLine>The Complex</streetAddressLine>
+<streetAddressLine>Unit 90210 / 10 Browning st</streetAddressLine>
+<postalCode>4101</postalCode>
+<city>West End</city>
+<state>QLD</state>
+<country>Australia</country>
+</addr>
+<telecom use="H" value="tel:0712345678"/>
+<telecom use="H" value="mailto:frank.harding@electronichealth.net.au"/>
+<patient>
+<name use="M">
+<prefix>Mr</prefix>
+<family>Harding</family>
+<given>Frank</given>
+<suffix>Junior</suffix>
+</name>
+<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.13.68" codeSystemName="AS 5017-2006 Health Care Client Identifier Sex" displayName="Male"/>
+<birthTime value="19821128"/>
+<ethnicGroupCode code="9" codeSystem="2.16.840.1.113883.3.879.291036" codeSystemName="METeOR Indigenous Status" displayName="Not stated/inadequately described"/>
+<ns2:multipleBirthInd value="true"/>
+<ns2:multipleBirthOrderNumber value="2"/>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="IHI" root="1.2.36.1.2001.1003.0.8003600300001283"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</patient>
+</patientRole>
+</recordTarget>
+<author typeCode="AUT">
+<time value="20210201103333+1000"/>
+<assignedAuthor>
+<id root="76969b75-bf11-4369-bcb8-a6ad02c71a58"/>
+<code code="253111" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="General Medical Practitioner"/>
+<addr use="WP">
+<streetAddressLine>The Public</streetAddressLine>
+<streetAddressLine>400 George Street</streetAddressLine>
+<postalCode>4000</postalCode>
+<city>Brisbane</city>
+<state>QLD</state>
+<country>Australia</country>
+</addr>
+<telecom use="WP" value="tel:0712345678"/>
+<telecom use="WP" value="fax:0712345678"/>
+<assignedPerson>
+<name use="L">
+<prefix>Dr</prefix>
+<family>Smith</family>
+<given>Sarah</given>
+<suffix>III</suffix>
+</name>
+<name use="M">
+<family>Jones</family>
+<given>Sarah</given>
+</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-I" root="1.2.36.1.2001.1003.0.8003610000001145"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+<ns2:asEmployment classCode="EMP">
+<ns2:code>
+<originalText>Staff Doctor</originalText>
+</ns2:code>
+<ns2:jobCode code="253111" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="General Medical Practitioner"/>
+<ns2:jobClassCode code="1" codeSystem="2.16.840.1.113883.3.879.314867" codeSystemName="Employment type" displayName="Permanent"/>
+<ns2:employerOrganization>
+<name>Front Office</name>
+<asOrganizationPartOf>
+<wholeOrganization>
+<name>Sarahs Clinic</name>
+<telecom use="WP" value="tel:0712345678"/>
+<telecom use="WP" value="fax:0712345678"/>
+<addr use="WP">
+<streetAddressLine>The Public</streetAddressLine>
+<streetAddressLine>400 George Street</streetAddressLine>
+<postalCode>4000</postalCode>
+<city>Brisbane</city>
+<state>QLD</state>
+<country>Australia</country>
+</addr>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003621231167886"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</wholeOrganization>
+</asOrganizationPartOf>
+</ns2:employerOrganization>
+</ns2:asEmployment>
+</assignedPerson>
+</assignedAuthor>
+</author>
+<custodian>
+<assignedCustodian>
+<representedCustodianOrganization>
+<id root="63f1bf13-ade4-4f42-9cbf-8af1d6205ec5"/>
+<name>Custodian organisation</name>
+<telecom use="WP" value="mailto:example@custodian.com.au"/>
+<addr use="PST">
+<streetAddressLine>99 Clinician Street</streetAddressLine>
+<postalCode>5555</postalCode>
+<city>Nehtaville</city>
+<state>QLD</state>
+<country>Australia</country>
+<additionalLocator>Level 2</additionalLocator>
+</addr>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003621231167886"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</representedCustodianOrganization>
+</assignedCustodian>
+</custodian>
+<informationRecipient typeCode="PRCP">
+<intendedRecipient>
+<id root="e167c187-132f-490e-b1f5-b4bc8f28b784"/>
+<addr use="WP">
+<streetAddressLine>616 Bromley Street</streetAddressLine>
+<postalCode>4169</postalCode>
+<city>Brisbane</city>
+<state>QLD</state>
+<country>Australia</country>
+</addr>
+<telecom use="WP" value="mailto:example@sample.com"/>
+<informationRecipient>
+<name use="L">
+<prefix>Mrs</prefix>
+<family>Black</family>
+<given>Joe</given>
+<suffix>Junior</suffix>
+</name>
+<name use="M">
+<prefix>Miss</prefix>
+<family>Alias</family>
+<given>other</given>
+</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-I" root="1.2.36.1.2001.1003.0.8003610000001145"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</informationRecipient>
+</intendedRecipient>
+</informationRecipient>
+<legalAuthenticator>
+<time value="20210201103333+1000"/>
+<signatureCode code="S"/>
+<assignedEntity>
+<id root="0fc67991-0886-4274-a3d7-b086db49b606"/>
+<code code="253511" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Surgeon (General)"/>
+<addr use="WP">
+<streetAddressLine>101 Browning Street</streetAddressLine>
+<postalCode>4101</postalCode>
+<city>Brisbane</city>
+<state>QLD</state>
+<country>Australia</country>
+</addr>
+<telecom use="WP" value="mailto:example@sample.com"/>
+<assignedPerson>
+<name use="L">
+<prefix>Mrs</prefix>
+<family>Black</family>
+<given>Jane</given>
+<suffix>Junior</suffix>
+</name>
+<name use="M">
+<prefix>Miss</prefix>
+<family>Alias</family>
+<given>other</given>
+</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-I" root="1.2.36.1.2001.1003.0.8003610000001145"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</assignedPerson>
+<representedOrganization>
+<name>Pathology Lab Name</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003621231167886"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</representedOrganization>
+</assignedEntity>
+</legalAuthenticator>
+<participant typeCode="PART">
+<time>
+<low value="20190304"/>
+<high value="20190328"/>
+</time>
+<associatedEntity classCode="CAREGIVER">
+<id root="54dd474d-95c1-4705-a31b-8771f220cd6b"/>
+<code code="309964003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Radiology Department">
+<originalText>Radiology Department</originalText>
+</code>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<associatedPerson>
+<name use="L">
+<prefix>Dr</prefix>
+<family>Smith</family>
+<given>John</given>
+<suffix>Snr</suffix>
+</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-I" root="1.2.36.1.2001.1003.0.8003610000001145"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+<ns2:asEmployment classCode="EMP">
+<ns2:code code="253314" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Medical Oncologist">
+<originalText>Medical Oncologist</originalText>
+</ns2:code>
+<ns2:jobCode code="253314" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Medical Oncologist">
+<originalText>Medical Oncologist</originalText>
+</ns2:jobCode>
+<ns2:jobClassCode code="1" codeSystem="2.16.840.1.113883.3.879.314867" codeSystemName="Employment type" displayName="Permanent"/>
+<ns2:employerOrganization>
+<name use="ORGB">Brisbane Health &amp; Wellness Clinic</name>
+<asOrganizationPartOf>
+<wholeOrganization>
+<name>Brisbane Health &amp; Wellness Clinic</name>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003620000045562"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</wholeOrganization>
+</asOrganizationPartOf>
+</ns2:employerOrganization>
+</ns2:asEmployment>
+</associatedPerson>
+</associatedEntity>
+</participant>
+<participant typeCode="ORG">
+<time>
+<low value="20190302"/>
+<high value="20220330"/>
+</time>
+<associatedEntity classCode="SDLOC">
+<id root="42f974df-fba9-485d-ae45-2ecbdef564ad"/>
+<code>
+<originalText>Ward B</originalText>
+</code>
+</associatedEntity>
+</participant>
+<componentOf>
+<encompassingEncounter>
+<effectiveTime>
+<low value="20190302"/>
+<high value="20220330"/>
+</effectiveTime>
+<dischargeDispositionCode code="8" codeSystem="2.16.840.1.113883.13.65" codeSystemName="AIHW Mode of Separation" displayName="Deceased"/>
+<encounterParticipant typeCode="DIS">
+<time>
+<low value="20190303"/>
+<high value="20190329"/>
+</time>
+<assignedEntity>
+<id root="f2a60fc1-f508-4ad1-9a5d-e30f28192ffc"/>
+<code code="309964003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Radiology Department">
+<originalText>Radiology Department</originalText>
+</code>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<assignedPerson>
+<name use="L">
+<prefix>Dr</prefix>
+<family>Smith</family>
+<given>John</given>
+<suffix>Snr</suffix>
+</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-I" root="1.2.36.1.2001.1003.0.8003610000001145"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+<ns2:asEmployment classCode="EMP">
+<ns2:code code="253314" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Medical Oncologist">
+<originalText>Medical Oncologist</originalText>
+</ns2:code>
+<ns2:jobCode code="253314" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Medical Oncologist">
+<originalText>Medical Oncologist</originalText>
+</ns2:jobCode>
+<ns2:jobClassCode code="1" codeSystem="2.16.840.1.113883.3.879.314867" codeSystemName="Employment type" displayName="Permanent"/>
+<ns2:employerOrganization>
+<name use="ORGB">Brisbane Health &amp; Wellness Clinic</name>
+<asOrganizationPartOf>
+<wholeOrganization>
+<name>Brisbane Health &amp; Wellness Clinic</name>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003620000045562"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</wholeOrganization>
+</asOrganizationPartOf>
+</ns2:employerOrganization>
+</ns2:asEmployment>
+<ns2:asQualifications classCode="QUAL">
+<ns2:code>
+<originalText>MBBS MS</originalText>
+</ns2:code>
+</ns2:asQualifications>
+</assignedPerson>
+</assignedEntity>
+</encounterParticipant>
+<location>
+<healthCareFacility>
+<id root="e57e961f-32f0-4072-84e3-b8df082f4c9e"/>
+<code code="HOSP" codeSystem="2.16.840.1.113883.1.11.17660" codeSystemName="HL7 ServiceDeliveryLocationRoleType" displayName="Hospital"/>
+<serviceProviderOrganization>
+<id root="d5d172b6-3224-4532-9597-984d1a10ef31"/>
+<name>Warner Bros Hospital</name>
+<asOrganizationPartOf>
+<id root="dcdf1eaa-b1cd-43bb-a07b-8f7657fff412"/>
+<wholeOrganization>
+<name use="ORGB">Warner Bros Hospital</name>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003621566695741"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</wholeOrganization>
+</asOrganizationPartOf>
+</serviceProviderOrganization>
+</healthCareFacility>
+</location>
+</encompassingEncounter>
+</componentOf>
+<component>
+<structuredBody>
+<component>
+<section>
+<code code="101.16011" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Health Profile"/>
+<title>Health Profile</title>
+<text>
+<table>
+<caption>Healthcare Providers</caption>
+<thead>
+<tr>
+<th>Service Provider Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<list>
+<item>Dr John Smith Snr</item>
+<item>Registered Name (Legal Name)</item>
+<item>
+<list>
+<caption>Addresses for Healthcare Provider</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Healthcare Provider</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Organization Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Employment Type: Permanent</item>
+<item>Occupation: Medical Oncologist</item>
+<item>Position in Organisation: Medical Oncologist</item>
+<item>Department: Some department service provider</item>
+<item>Organisation Name: Brisbane Health &amp; Wellness Clinic, Usage: Business name</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Addresses for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+</list>
+</item>
+</list>
+</td>
+</tr>
+</tbody>
+</table>
+</text>
+<component>
+<section>
+<code code="101.20113" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Adverse Reactions"/>
+<title>Adverse Reactions</title>
+<text>
+<table>
+<caption>Health Profile &gt; Adverse Reactions</caption>
+<thead>
+<tr>
+<th>Reaction Type</th>
+<th>Agent Desc</th>
+<th>Reaction Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Allergic reaction</td>
+<td>Shellfish</td>
+<td>
+<list>
+<item>Rash</item>
+<item>Rash</item>
+</list>
+</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="3c32ad66-a26b-4dda-b631-a81e4d4da668"/>
+<code code="102.15517" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Adverse Reaction"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="419076005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Allergic reaction" xsi:type="CD"/>
+<participant typeCode="CAGNT">
+<participantRole>
+<playingEntity>
+<code code="735029006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Shellfish"/>
+</playingEntity>
+</participantRole>
+</participant>
+<entryRelationship inversionInd="true" typeCode="MFST">
+<observation classCode="OBS" moodCode="EVN">
+<code code="271807003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Rash"/>
+</observation>
+</entryRelationship>
+<entryRelationship inversionInd="true" typeCode="MFST">
+<observation classCode="OBS" moodCode="EVN">
+<code code="271807003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Rash"/>
+</observation>
+</entryRelationship>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="101.20021" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Alerts"/>
+<title>Alerts</title>
+<text>
+<table>
+<caption>Health Profile &gt; Alerts</caption>
+<thead>
+<tr>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>At risk for infection</td>
+<td>At risk for infection</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="155a938a-a646-4d86-8d4c-812c79c7c369"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="78648007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="At risk for infection" xsi:type="CE">
+<originalText>At risk for infection</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="78648007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="At risk for infection" xsi:type="CD">
+<originalText>At risk for infection</originalText>
+</value>
+</observation>
+</entry>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section>
+<code code="101.16006" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Event"/>
+<title>Event</title>
+<text>
+<list>
+<caption>Event &gt; Specialty</caption>
+<item>Specialty</item>
+</list>
+<list>
+<caption>Event &gt; Location Of Discharge</caption>
+<item>Ward B</item>
+</list>
+<table>
+<caption>Event &gt; Encounter &gt; Other Participants</caption>
+<thead>
+<tr>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<list>
+<item>Dr John Smith Snr</item>
+<item>Registered Name (Legal Name)</item>
+<item>
+<list>
+<caption>Addresses for Healthcare Provider</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Healthcare Provider</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Organization Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Employment Type: Permanent</item>
+<item>Occupation: Medical Oncologist</item>
+<item>Position in Organisation: Medical Oncologist</item>
+<item>Department: Some department service provider</item>
+<item>Organisation Name: Brisbane Health &amp; Wellness Clinic, Usage: Business name</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Addresses for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+</list>
+</item>
+</list>
+</td>
+</tr>
+</tbody>
+</table>
+<list>
+<caption>Event &gt; Encounter &gt; Responsible Health Professional at Discharge</caption>
+<item>Dr John Smith Snr</item>
+<item>Registered Name (Legal Name)</item>
+<item>
+<list>
+<caption>Addresses for Healthcare Provider</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Healthcare Provider</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Organization Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Employment Type: Permanent</item>
+<item>Occupation: Medical Oncologist</item>
+<item>Position in Organisation: Medical Oncologist</item>
+<item>Department: Some department service provider</item>
+<item>Organisation Name: Brisbane Health &amp; Wellness Clinic, Usage: Business name</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Addresses for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+</list>
+</item>
+</list>
+<list>
+<caption>Event &gt; Encounter &gt; Encounter Period</caption>
+<item>2 Mar 2019 -&gt; 30 Mar 2022</item>
+</list>
+<list>
+<caption>Event &gt; Encounter &gt; Separation Mode</caption>
+<item>Deceased</item>
+</list>
+</text>
+<component>
+<section>
+<code code="102.15513.4.1.1" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Clinical Synopsis"/>
+<title>Clinical Synopsis</title>
+<text>
+<list>
+<caption>Clinical Synopsis</caption>
+<item>This 61yo female was admitted for elective, right, total knee replacement. Past history of mild
+COPD, mild anaemia, and radiation cystitis. A cemented prosthesis was inserted without difficulty
+under combined lumbar epidural and general anaesthetic. On day 2, she developed bilateral basal
+atelectasis. Ongoing problems with inadequate pain management because of persistent hypotension
+secondary to the epidural. The epidural was ceased and the patient was switched to a morphine PCA
+regime. Due to concern about the potential for pneumonia in the presence of COPD she was commenced on
+oral antibiotics and given regular chest physiotherapy. Due to mild anaemia prior to surgery and
+subsequent operative blood loss she required a blood transfusion of three units. She was given regular
+enoxaparin (Clexane) to reduce the risk of DVT. The patient subsequently makes steady progress,
+regaining good mobility in her knee and is able to mobilise with the aid of a stick. She is on
+regular paracetamol and codeine for pain relief, as well as her usual medications for COPD. The Celecoxib was ceased. Aspirin is to be recommenced at the discretion of the GP. Discharged with
+post-op analgesics and oral antibiotics.</item>
+</list>
+</text>
+<entry typeCode="DRIV">
+<act classCode="ACT" moodCode="EVN">
+<id root="a3cca87c-91c7-4678-8767-5922bf96c0cf"/>
+<code code="103.15582" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Clinical Synopsis Description"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">This 61yo female was admitted for elective, right, total knee replacement. Past history of mild
+COPD, mild anaemia, and radiation cystitis. A cemented prosthesis was inserted without difficulty
+under combined lumbar epidural and general anaesthetic. On day 2, she developed bilateral basal
+atelectasis. Ongoing problems with inadequate pain management because of persistent hypotension
+secondary to the epidural. The epidural was ceased and the patient was switched to a morphine PCA
+regime. Due to concern about the potential for pneumonia in the presence of COPD she was commenced on
+oral antibiotics and given regular chest physiotherapy. Due to mild anaemia prior to surgery and
+subsequent operative blood loss she required a blood transfusion of three units. She was given regular
+enoxaparin (Clexane) to reduce the risk of DVT. The patient subsequently makes steady progress,
+regaining good mobility in her knee and is able to mobilise with the aid of a stick. She is on
+regular paracetamol and codeine for pain relief, as well as her usual medications for COPD. The Celecoxib was ceased. Aspirin is to be recommenced at the discretion of the GP. Discharged with
+post-op analgesics and oral antibiotics.</text>
+</act>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="101.16142" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Problems/Diagnoses This Visit"/>
+<title>Problems/Diagnoses This Visit</title>
+<text>
+<table>
+<caption>Problem Diagnoses</caption>
+<thead>
+<tr>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chronic radiation cystitis</td>
+<td>Complication</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="0979fa6a-98c8-43d0-9927-5dee5b0fda87"/>
+<code code="116223007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Complication"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="236629009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Chronic radiation cystitis" xsi:type="CD"/>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="101.20109" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Clinical Interventions Performed This Visit"/>
+<title>Clinical Interventions Performed This Visit</title>
+<text>
+<table>
+<caption>Clinical Interventions</caption>
+<thead>
+<tr>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total right knee joint replacement</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry typeCode="DRIV">
+<procedure classCode="PROC" moodCode="EVN">
+<id root="00fb42cb-b8e1-4264-937a-47bcecf0a1d1"/>
+<code code="443682009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Total right knee joint replacement"/>
+</procedure>
+</entry>
+</section>
+</component>
+<component>
+<section classCode="DOCSECT" moodCode="EVN">
+<id root="7638482c-dd7d-4cfc-8e37-df54ee97a302"/>
+<code code="101.20117" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Diagnostic Investigations"/>
+<title>Diagnostic Investigations</title>
+<text>
+<paragraph>This section contains the following subsections: Pathology Test Result, Imaging Examination Result and Requested Service(s).</paragraph>
+</text>
+<component>
+<section>
+<id root="8092fc52-49f4-4169-86c0-23928af9533a"/>
+<code code="102.16029" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Diagnostic Investigation"/>
+<title>Diagnostic Investigation</title>
+<text>
+<table>
+<caption>Other Test Result: Report Name</caption>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td styleCode="Bold">Report Date</td>
+<td>1 Jan 2017</td>
+</tr>
+<tr>
+<td styleCode="Bold">Report Name</td>
+<td>Report Name</td>
+</tr>
+<tr>
+<td styleCode="Bold">Report Status</td>
+<td>Final</td>
+</tr>
+<tr>
+<td colspan="2">
+<paragraph styleCode="xPre">    GLUCOSE - FASTING
+
+         BLOOD GLUCOSE                 10.8 * mmol/L         (3.9-6.0)
+
+      Values for Diagnosis of Diabetes Mellitus and other Hyperglycaemia
+
+       DIABETES MELLITUS (DM)
+         Fasting                &amp; &gt; 6.9  mmol/L
+         or 2 hrs post load     &amp; &gt; 11.0 mmol/L
+
+       IMPAIRED FASTING GLYCAEMIA (IFG)
+         Fasting                &amp; &gt; 6.0 mmol/L and &amp; &lt; 7.0 mmol/L
+
+
+
+    Date Collected  : 07/07/2005
+    Time Collected  : 12:15                 Reference
+    Episode         : 1    Units      Range
+    ==============    ==========
+
+
+    GLUCOSE - FASTING
+    BLOOD GLUCOSE   : 10.8 *     mmol/L     (3.9-6.0)</paragraph>
+</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="43735556-edf6-45f5-9e65-dcd451b90ad4"/>
+<code>
+<originalText>Report Name</originalText>
+</code>
+<effectiveTime value="20170101"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">    GLUCOSE - FASTING
+
+         BLOOD GLUCOSE                 10.8 * mmol/L         (3.9-6.0)
+
+      Values for Diagnosis of Diabetes Mellitus and other Hyperglycaemia
+
+       DIABETES MELLITUS (DM)
+         Fasting                &amp; &gt; 6.9  mmol/L
+         or 2 hrs post load     &amp; &gt; 11.0 mmol/L
+
+       IMPAIRED FASTING GLYCAEMIA (IFG)
+         Fasting                &amp; &gt; 6.0 mmol/L and &amp; &lt; 7.0 mmol/L
+
+
+
+    Date Collected  : 07/07/2005
+    Time Collected  : 12:15                 Reference
+    Episode         : 1    Units      Range
+    ==============    ==========
+
+
+    GLUCOSE - FASTING
+    BLOOD GLUCOSE   : 10.8 *     mmol/L     (3.9-6.0)</value>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="c3f2ce1c-f84f-4909-a4b6-33ef2af741ab"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<id root="c5cd6ac8-6112-4259-ad1b-9be41039c4ee"/>
+<code code="102.16029" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Diagnostic Investigation"/>
+<title>Diagnostic Investigation</title>
+<text>
+<table>
+<caption>Other Test Result: Report Name (with attachment)</caption>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td styleCode="Bold">Report Date</td>
+<td>1 Jan 2018</td>
+</tr>
+<tr>
+<td styleCode="Bold">Report Name</td>
+<td>Report Name (with attachment)</td>
+</tr>
+<tr>
+<td styleCode="Bold">Report Status</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>
+<renderMultiMedia referencedObject="e4e8af66-e4e5-44b6-baa0-a5418fff6646">
+<caption>Other Test Result</caption>
+</renderMultiMedia>
+</td>
+<td>
+<content>
+<linkHtml href="radiologyreport.pdf">radiologyreport.pdf</linkHtml>
+</content>
+</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="6f072941-3271-4eff-9192-7e0d2b85fed8"/>
+<code>
+<originalText>Report Name (with attachment)</originalText>
+</code>
+<effectiveTime value="20180101"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" integrityCheck="WuGzArOJ0d+HNGnOw7xj3uKVXig=" mediaType="application/pdf" xsi:type="ED">
+<reference value="radiologyreport.pdf"/>
+</value>
+<entryRelationship typeCode="COMP">
+<observationMedia ID="e4e8af66-e4e5-44b6-baa0-a5418fff6646" classCode="OBS" moodCode="EVN">
+<value integrityCheck="WuGzArOJ0d+HNGnOw7xj3uKVXig=" mediaType="application/pdf">
+<reference value="radiologyreport.pdf"/>
+</value>
+</observationMedia>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="ee4501ec-ccae-4406-a143-ec497f0640d2"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<id root="e92ad7e2-3f4b-48ac-8aad-874e6adc23c4"/>
+<code code="102.16144" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Pathology Test Result"/>
+<title>Pathology Test Result</title>
+<text>
+<table>
+<caption>Specimen Details</caption>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td styleCode="Bold">Specimen Type</td>
+<td>Blood</td>
+</tr>
+<tr>
+<td styleCode="Bold">Collection Procedure</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Handling and Processing</caption>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td styleCode="Bold">Date and Time of Collection</td>
+<td>20 Jun 2019 10:00 +1000</td>
+</tr>
+<tr>
+<td styleCode="Bold">Collection Setting</td>
+<td/>
+</tr>
+<tr>
+<td styleCode="Bold">Date and Time of Receipt</td>
+<td>20 Jun 2019 11:00 +1000</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Physical Details of Object: 0.5 cm x 0.5 cm excised nevus</caption>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td styleCode="Bold">Weight</td>
+<td>2 mg</td>
+</tr>
+<tr>
+<td styleCode="Bold">Description</td>
+<td>0.5 cm x 0.5 cm excised nevus</td>
+</tr>
+</tbody>
+</table>
+<renderMultiMedia referencedObject="acaa0b16-a3c7-4f1d-81a7-6ac0d94c2dcc">
+<caption>Physical Detail Image x-ray.jpg</caption>
+</renderMultiMedia>
+<table>
+<caption>Collection &amp; Handling</caption>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td styleCode="Bold">Sample Preconditions</td>
+<td>Frozen tissue section specimen</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Identifiers</caption>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td styleCode="Bold">Specimen Identifier</td>
+<td>123456789</td>
+</tr>
+<tr>
+<td styleCode="Bold">Parent Specimen Identifier</td>
+<td>1029384756</td>
+</tr>
+<tr>
+<td styleCode="Bold">Container Identifier</td>
+<td>9087654321</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Report Header</caption>
+<tbody>
+<tr>
+<td styleCode="Bold">Collection Date :</td>
+<td>20 Jun 2019 11:20 +1000</td>
+<td styleCode="Bold">Report Status :</td>
+<td>Final</td>
+</tr>
+<tr>
+<td styleCode="Bold">Department</td>
+<td>Hematology</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td styleCode="Bold">Clinical Information</td>
+<td>Feeling lethargic</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>FULL BLOOD COUNT (Normal Range)</caption>
+<thead>
+<tr>
+<th/>
+<th/>
+<th/>
+<th>Normal Range</th>
+<th>Units</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Haemoglobin</td>
+<td>189</td>
+<td>High</td>
+<td>(130.0 - 180.0)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td colspan="6" styleCode="Bold">Reference Range Guidance : Hb normal ranges were modified on the 20/02/018</td>
+</tr>
+<tr>
+<td colspan="6" styleCode="Bold">Comment :  This is a comment that could be provided about the HB result</td>
+</tr>
+<tr>
+<td>Red Cell Count</td>
+<td>5.30</td>
+<td>Normal</td>
+<td>(4.5 - 6.5)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Hematocrit</td>
+<td>0.43</td>
+<td>Normal</td>
+<td>(0.4 - 0.54)</td>
+<td>L/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Mean Cell Volume</td>
+<td>81</td>
+<td>Normal</td>
+<td>(80.0 - 96.0)</td>
+<td>fL</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Mean Cell Hemoglobin</td>
+<td>27.4</td>
+<td>Normal</td>
+<td>(24.0 - 32.0)</td>
+<td>pg</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Mean Cell Hemoglobin Concentration</td>
+<td>338</td>
+<td>Normal</td>
+<td>(320.0 - 360.0)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td>198</td>
+<td>Normal</td>
+<td>(150.0 - 400.0)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>White Cell Count</td>
+<td>12.1</td>
+<td>Normal</td>
+<td>(4.0 - 11.0)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Neutrophils</td>
+<td>9.3</td>
+<td>Normal</td>
+<td>(2.0 - 7.5)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Lymphocytes</td>
+<td>2.1</td>
+<td>Normal</td>
+<td>(1.0 - 4.0)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Monocytes</td>
+<td>0.7</td>
+<td>Normal</td>
+<td>(0.1 - 0.8)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Eosinophils</td>
+<td>0.0</td>
+<td>Normal</td>
+<td>(0.0 - 0.4)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+<tr>
+<td>Basophils</td>
+<td>0.0</td>
+<td>Normal</td>
+<td>(0.0 - 0.2)</td>
+<td>g/L</td>
+<td>Final</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Test Comment</caption>
+<tbody>
+<tr>
+<td>I could write an overall comment for the whole FBC panel</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Pathology Test Conclusion</caption>
+<tbody>
+<tr>
+<td>I could write a final conclusion for the whole FBC panel</td>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id extension="19P123456-FBC" root="2.999.4"/>
+<code code="FBC" codeSystem="2.999.100" codeSystemName="ACME Laboratories Report CodeSystem" displayName="Full blood count">
+<originalText>Full blood count</originalText>
+<translation code="26604007" codeSystem="2.16.840.1.113883.6.96" displayName="Complete blood count"/>
+</code>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="6aa38575-6fdf-4e16-8c65-417a0be21603"/>
+<code code="310074003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="pathology service"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="HM" codeSystem="2.16.840.1.113883.12.74" codeSystemName="HL7 Diagnostic service section ID" displayName="Hematology" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="4a8203a1-1a68-4c85-8660-163a41de2dbb"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<code code="55752-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Clinical information"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Feeling lethargic</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<id root="daab7cf1-a4cb-4180-a93f-edefbe584bed"/>
+<code code="386344002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="laboratory findings data interpretation"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">I could write a final conclusion for the whole FBC panel</value>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="3671a3ae-775c-4d1b-939e-cd8ee6dd0c0d"/>
+<code code="103.16468" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Test Comment"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">I could write an overall comment for the whole FBC panel</text>
+</act>
+</entryRelationship>
+<entryRelationship inversionInd="true" typeCode="SUBJ">
+<act classCode="ACT" moodCode="EVN">
+<id root="a38b6c60-0751-4228-bca1-71b907905ee8"/>
+<code code="102.16160" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Test Request Details"/>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="RQO">
+<id root="7b877904-dee6-4a94-97ad-797c300a8d2f"/>
+<code code="103.11017" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Test Requested Name"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="CBC" codeSystem="2.999.3" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Full Blood Count" xsi:type="CD">
+<originalText>Full Blood Count</originalText>
+</value>
+</observation>
+</entryRelationship>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="7b9b419f-a466-48c8-8dd7-12e348fd1958"/>
+<code code="103.16605" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Pathology Test Result DateTime"/>
+<effectiveTime value="201906201120+1000"/>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<organizer classCode="BATTERY" moodCode="EVN">
+<id root="9ad25f5b-3731-4767-9a68-b1c8d4542658"/>
+<code code="FBC" codeSystem="2.999.100" codeSystemName="ACME Laboratories Report CodeSystem" displayName="Full blood count">
+<originalText>Full blood count</originalText>
+<translation code="26604007" codeSystem="2.16.840.1.113883.6.96" displayName="Complete blood count"/>
+</code>
+<statusCode code="completed"/>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="135b6a86-df8b-440f-a25c-82fcc110e95a"/>
+<code code="58745656" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Haemoglobin">
+<originalText>Haemoglobin</originalText>
+<translation code="718-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="189" xsi:type="PQ"/>
+<interpretationCode code="H" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="High"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="0fafb6b9-353d-40e7-b404-1e4badb837bc"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">This is a comment that could be provided about the HB result</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="9af876d5-bfd8-43e7-95d3-cb6345d3c85b"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Hb normal ranges were modified on the 20/02/018</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="ea997818-3f83-49f0-b57a-3d5e60bc3ff7"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="130.0"/>
+<high value="180.0"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="0520ccbd-c1c9-40f5-9fb6-e8ba5beec2d1"/>
+<code code="456337895" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Red Cell Count">
+<originalText>Red Cell Count</originalText>
+<translation code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Red Cell Count"/>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="5.30" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="373e6ee8-3c5e-48c2-802d-05f180228052"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="57fd5109-85d1-4575-94ec-63a09d7b2e90"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="3ca8e9d1-4969-436f-8091-1f872e16d1d7"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="4.5"/>
+<high value="6.5"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="e19c2858-e937-4d45-a82f-807ffee773fd"/>
+<code code="7854343223" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Hematocrit">
+<originalText>Hematocrit</originalText>
+<translation code="4544-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="L/L" value="0.43" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="f0230599-12c3-4b2a-a558-e58d7fcc0ecd"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="2b93d97b-25fd-4bc9-9f99-1e268ab3a19b"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="0d323841-4c11-470a-8e74-afe1044b10f5"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="L/L" xsi:type="IVL_PQ">
+<low value="0.4"/>
+<high value="0.54"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="2aad9c59-8fac-4a4c-93f8-e1d89e29fd17"/>
+<code code="6322353455" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Mean Cell Volume">
+<originalText>Mean Cell Volume</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="fL" value="81" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="51955cf6-af54-4d4d-b655-a69627391a36"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="bc1aad64-8d9b-4c53-b0f1-6e1b16df313f"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="c3f9f669-fd2d-4398-8adf-61a959365d92"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="fL" xsi:type="IVL_PQ">
+<low value="80.0"/>
+<high value="96.0"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="39a8e305-7741-4256-acf8-4f2fcc8fb731"/>
+<code code="62109543" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Mean Cell Hemoglobin">
+<originalText>Mean Cell Hemoglobin</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="pg" value="27.4" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="809a82ec-e82c-4c87-ab59-2c857114ca82"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="355858bc-6680-498f-9cde-30bbac22fd3d"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="c3f34f69-a27b-4c8d-8407-938e6ac5485b"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="pg" xsi:type="IVL_PQ">
+<low value="24.0"/>
+<high value="32.0"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="2533a98b-adc5-4d7d-a12c-d95bb420a095"/>
+<code code="2333342107" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Mean Cell Hemoglobin Concentration">
+<originalText>Mean Cell Hemoglobin Concentration</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="338" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="0159113e-28a9-42f6-91b4-c9fd761a3eb9"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="3b0fb71f-a1f0-4665-8d61-badd8ecfd8c4"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="2fae5b32-340c-4c16-a8a7-4e0cf460ff81"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="320.0"/>
+<high value="360.0"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="a4b5d719-608c-4dd3-a499-5dc6de42b17c"/>
+<code code="87687987" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Platelet">
+<originalText>Platelet</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="198" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="91cc2af1-64fa-4259-a931-0a69fb2b0889"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="87fdcadd-d39c-4b6b-aa29-87bf8a83e094"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="e3d98691-68bc-4d74-9f4c-2e97b3a421bf"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="150.0"/>
+<high value="400.0"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="286a8082-9641-4234-af78-4f12572961ed"/>
+<code code="87736222225" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="White Cell Count">
+<originalText>White Cell Count</originalText>
+<translation code="6690-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="White Cell Count"/>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="12.1" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="a7477154-af93-4752-b8d4-d5f7bdab532c"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="1a885e6b-4467-432b-ae94-a5d091ddf511"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="e2aba611-4282-4361-919f-b7484155726b"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="4.0"/>
+<high value="11.0"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="f5707f46-23d1-4727-bd84-95aec90c08c7"/>
+<code code="13546224" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Neutrophils">
+<originalText>Neutrophils</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="9.3" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="858e38c7-0f81-4e13-98ff-a430d9986d99"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="ea5b242a-c09c-480a-addd-af7cf1b5204b"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="eeced947-d2f4-4f1e-837e-75b9f2c1628e"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="2.0"/>
+<high value="7.5"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="ec0ab6c7-cf2e-411c-a35e-55eaca158d24"/>
+<code code="34268543" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Lymphocytes">
+<originalText>Lymphocytes</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="2.1" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="bc8f0e89-c7b5-4075-ae02-95ee78e3cf61"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="41f10cdf-5450-46c6-a3dd-176d972829c9"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="22be6cf9-35da-482f-962e-f926c61946dc"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="1.0"/>
+<high value="4.0"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="0701183a-a6b7-4c14-b8c5-9c2c138b0915"/>
+<code code="867645352" codeSystem="2.999.200" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Monocytes">
+<originalText>Monocytes</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="0.7" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="25e94a9f-97bc-40f1-9089-df4ff65a90e9"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="011f1380-c091-481c-b093-c04602a7d10d"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="c291ce3e-cd37-43c6-a697-50c7cd171788"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="0.1"/>
+<high value="0.8"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="c7a9763a-463e-49be-8777-cf26c79f863b"/>
+<code code="53075433" codeSystem="2.999.1" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Eosinophils">
+<originalText>Eosinophils</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="0.0" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="ce137da4-2386-4787-843d-a21ff24267de"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="f1ad9f43-816b-4e1d-b22c-d090088bbd90"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="95e8c581-217c-4811-b644-05a6c11162de"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="0.0"/>
+<high value="0.4"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="0436dac4-8975-4b7a-a9c7-72831477ff72"/>
+<code code="917542254" codeSystem="2.999.2" codeSystemName="ACME Laboratories Atomic Result CodeSystem" displayName="Basophils">
+<originalText>Basophils</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" value="0.0" xsi:type="PQ"/>
+<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal"/>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="417dfb8f-6865-43a2-bc12-c7873a059ccd"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="8835f485-b0de-41dc-b98a-bb67c5720b0f"/>
+<code code="281298000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="reference range comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">NA</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="e83c1627-0f52-417b-8afa-836cebdb39da"/>
+<code code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Normal Range">
+<originalText>Normal Range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="0.0"/>
+<high value="0.2"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+</organizer>
+</entryRelationship>
+<entryRelationship typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN">
+<id root="9384a219-52f8-4096-ac61-116064d98acf"/>
+<code code="102.16156.136.2.1" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Specimen"/>
+<effectiveTime value="201906201000+1000"/>
+<specimen>
+<specimenRole>
+<id extension="123456789" root="2.999.78"/>
+<specimenPlayingEntity>
+<code>
+<originalText>Blood</originalText>
+</code>
+<quantity unit="mg" value="2"/>
+<desc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">0.5 cm x 0.5 cm excised nevus</desc>
+<ns2:asSpecimenInContainer classCode="CONT">
+<ns2:container>
+<ns2:id extension="9087654321" root="2.999.6"/>
+</ns2:container>
+</ns2:asSpecimenInContainer>
+</specimenPlayingEntity>
+</specimenRole>
+</specimen>
+<entryRelationship typeCode="SPRT">
+<observationMedia ID="acaa0b16-a3c7-4f1d-81a7-6ac0d94c2dcc" classCode="OBS" moodCode="EVN">
+<id root="8f208ba8-b3d6-4977-9036-c44a40e3dbfd"/>
+<value integrityCheck="xARVz193m689kRoZe0c6ZXJ2wvs=" mediaType="image/jpeg">
+<reference value="x-ray.jpg"/>
+</value>
+</observationMedia>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="a8cc83f3-31bb-46c5-9a9c-41596500b3a2"/>
+<code code="103.16171" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Sampling Preconditions"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="16214131000119104" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Frozen tissue section specimen" xsi:type="CD"/>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="293e46c8-cddf-434b-8ce5-5867611f43ce"/>
+<code code="103.11014" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="DateTime Received"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="20190620110000+1000" xsi:type="TS"/>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="e7ce2bbe-30d9-4d3b-92d7-666c30bb55bc"/>
+<code code="103.16187" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Parent Specimen Identifier"/>
+<specimen>
+<specimenRole>
+<id extension="1029384756" root="2.999.5"/>
+</specimenRole>
+</specimen>
+</observation>
+</entryRelationship>
+</observation>
+</entryRelationship>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<id root="0a1f7470-ebd3-4b6d-bb5b-ddac523ce64b"/>
+<code code="102.16145" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Imaging Examination Result"/>
+<title>Imaging Examination Result</title>
+<text mediaType="text/x-hl7-text+xml">
+<table>
+<caption>Imaging Examination Result</caption>
+<thead>
+<tr>
+<th>Result Name</th>
+<th>Representation</th>
+<th>Clinical Info</th>
+<th>Findings</th>
+<th>Status</th>
+<th>Image Modality</th>
+<th>Obs Date Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Result Name</td>
+<td>Rich Text Format</td>
+<td>Fluid Retention.</td>
+<td>xyz</td>
+<td>Final</td>
+<td>x-ray</td>
+<td>2 Jan 2013</td>
+</tr>
+</tbody>
+</table>
+<renderMultiMedia referencedObject="cdc22b00-7768-4c0d-b90f-34f36d56f372">
+<caption>Imaging Examination Result x-rayImagingExaminationResult.jpg</caption>
+</renderMultiMedia>
+<renderMultiMedia referencedObject="d014c327-5556-42ec-8a12-7b99a4a3e3e1">
+<caption>Imaging Examination Result x-rayImagingExaminationResult.jpg</caption>
+</renderMultiMedia>
+<table>
+<caption>Imaging Examination Result &gt; Result Group</caption>
+<thead>
+<tr>
+<th>Group Name</th>
+<th>Anatomical Loc Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Result Group Name</td>
+<td>Left Forearm</td>
+</tr>
+</tbody>
+</table>
+<renderMultiMedia referencedObject="d6d9d86e-0a07-4fc5-9761-19e0d6d6c727">
+<caption>Result Group Image x-rayImagingExaminationResultGroup.jpg</caption>
+</renderMultiMedia>
+<renderMultiMedia referencedObject="b5942953-6c8d-4ec7-aba8-32c97f700c0b">
+<caption>Result Group Image x-rayImagingExaminationResultGroup.jpg</caption>
+</renderMultiMedia>
+<table>
+<caption>Result Group &gt; Imaging Results</caption>
+<thead>
+<tr>
+<th>Comments</th>
+<th>Result Name</th>
+<th>Value</th>
+<th>Normal Range</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Please, Add Comments</td>
+<td>Imaging Result Name</td>
+<td>(2.2)</td>
+<td>Normal</td>
+<td>mL</td>
+</tr>
+<tr>
+<td colspan="5" styleCode="Bold">Result Group &gt; Imaging Results &gt; Reference Ranges for Imaging Result Name</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>(0.04 - 0.11)</td>
+<td>normal range</td>
+<td>g/L</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Imaging Examination Results &gt; Examination Request Details</caption>
+<thead>
+<tr>
+<th>Examination Requested Names</th>
+<th>Obs Date Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chest X-ray</td>
+<td>1 Jan 2013</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Examination Request Details &gt; Image Details</caption>
+<thead>
+<tr>
+<th>View Name</th>
+<th>Image Date Time</th>
+<th>Sub Pos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 X-Ray - A/U Skin - Stuff</td>
+<td>1 Jan 2013</td>
+<td>Subject Position</td>
+</tr>
+</tbody>
+</table>
+<renderMultiMedia referencedObject="b16ca9c7-9218-4763-bf34-7871be015721">
+<caption>Image x-ray.jpg</caption>
+</renderMultiMedia>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="9bbd010d-3afd-4940-b7fa-1bcf803dfd0d"/>
+<code>
+<originalText>Result Name</originalText>
+</code>
+<text>Rich Text Format</text>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="EN">Rich Text Format</value>
+<methodCode code="363680008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="x-ray">
+<originalText>x-ray</originalText>
+</methodCode>
+<targetSiteCode>
+<originalText>Left Forearm</originalText>
+<qualifier>
+<name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="with laterality"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" xsi:type="CV"/>
+</qualifier>
+</targetSiteCode>
+<entryRelationship typeCode="REFR">
+<observationMedia ID="cdc22b00-7768-4c0d-b90f-34f36d56f372" classCode="OBS" moodCode="EVN">
+<id root="3017aada-f143-4495-9877-c50a2a60b798"/>
+<value integrityCheck="1OiMgK1xVcbWQvhVPI8LOVuvg5A=" mediaType="image/jpeg">
+<reference value="x-rayImagingExaminationResult.jpg"/>
+</value>
+</observationMedia>
+</entryRelationship>
+<entryRelationship typeCode="REFR">
+<observationMedia ID="d014c327-5556-42ec-8a12-7b99a4a3e3e1" classCode="OBS" moodCode="EVN">
+<id root="fa713ce2-4658-44bd-9d31-be0d96b60a5a"/>
+<value integrityCheck="1OiMgK1xVcbWQvhVPI8LOVuvg5A=" mediaType="image/jpeg">
+<reference value="x-rayImagingExaminationResult.jpg"/>
+</value>
+</observationMedia>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="308552006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="report status" xsi:type="CE"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="3" codeSystem="1.2.36.1.2001.1001.101.104.16501" codeSystemName="NCTIS Result Status Values" displayName="Final" xsi:type="CD">
+<originalText>Final</originalText>
+</value>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="af8c0879-50e6-47db-8a08-3691a10cc3a0"/>
+<code code="55752-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Clinical information"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Fluid Retention.</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<id root="1f92948c-0225-44b0-9220-7046184e1765"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.16503" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Findings" xsi:type="CE"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">xyz</text>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<organizer classCode="BATTERY" moodCode="EVN">
+<id root="471c6b1d-7e72-457d-994a-3771767e5732"/>
+<code code="291c60c2-0700-4b11-8402-a55950d746a5" codeSystem="2.999.333">
+<originalText>Result Group Name</originalText>
+</code>
+<statusCode code="completed"/>
+<component>
+<observation classCode="OBS" moodCode="EVN">
+<id root="2f9e4211-ade7-4a3b-9586-ec9f2ae86f7c"/>
+<code>
+<originalText>Imaging Result Name</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="mL" value="2.2" xsi:type="PQ"/>
+<targetSiteCode>
+<originalText>Left Forearm</originalText>
+<qualifier>
+<name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="with laterality"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" xsi:type="CV"/>
+</qualifier>
+</targetSiteCode>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="327cf27f-ea72-4083-9417-eb4a2076fe78"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Please</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="c71c1c15-4f13-46bf-ac7c-53e59b9c053f"/>
+<code code="281296001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20110531" displayName="result comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Add Comments</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="REFR">
+<observationMedia ID="d6d9d86e-0a07-4fc5-9761-19e0d6d6c727" classCode="OBS" moodCode="EVN">
+<id root="3e298db3-d565-48de-a4d8-053312d7fcf6"/>
+<value integrityCheck="V2GuSB9DTpOJbLtPYZcAH/ebEpI=" mediaType="image/jpeg">
+<reference value="x-rayImagingExaminationResultGroup.jpg"/>
+</value>
+</observationMedia>
+</entryRelationship>
+<entryRelationship typeCode="REFR">
+<observationMedia ID="b5942953-6c8d-4ec7-aba8-32c97f700c0b" classCode="OBS" moodCode="EVN">
+<id root="92a87dc9-3706-4b21-88ef-e8c6bd9ae57f"/>
+<value integrityCheck="V2GuSB9DTpOJbLtPYZcAH/ebEpI=" mediaType="image/jpeg">
+<reference value="x-rayImagingExaminationResultGroup.jpg"/>
+</value>
+</observationMedia>
+</entryRelationship>
+<referenceRange typeCode="REFV">
+<observationRange classCode="OBS" moodCode="EVN.CRT">
+<code code="260395002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="normal range">
+<originalText>normal range</originalText>
+</code>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="g/L" xsi:type="IVL_PQ">
+<low value="0.04"/>
+<high value="0.11"/>
+</value>
+</observationRange>
+</referenceRange>
+</observation>
+</component>
+</organizer>
+</entryRelationship>
+<entryRelationship inversionInd="true" typeCode="SUBJ">
+<act classCode="ACT" moodCode="EVN">
+<id root="b25bf8a9-c81b-4775-abc4-2a68c48d8673"/>
+<code code="102.16511" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Examination Request Details"/>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<code code="103.16512" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Examination Requested Name"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Chest X-ray</text>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Chest X-ray</value>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="cd7b387e-f472-4ac5-9e9c-89957c7fc318"/>
+<code code="103.16514" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Report Identifier"/>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="SUBJ">
+<act classCode="ACT" moodCode="EVN">
+<id extension="Series Identifier" root="2.999.24"/>
+<code code="103.16513" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="DICOM Study Identifier"/>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id extension="Image Identifier" root="e8aea8f3-b5af-4250-98f5-44f8b562f931"/>
+<code code="103.16515" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Image Details"/>
+<effectiveTime value="20130101"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CD">
+<originalText>1 X-Ray - A/U Skin - Stuff</originalText>
+</value>
+<entryRelationship typeCode="REFR">
+<act classCode="ACT" moodCode="EVN">
+<id extension="Accession Number Group: 0008  Element: 0050" root="2.999.23"/>
+<code code="103.16517" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="DICOM Series Identifier"/>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="REFR">
+<observation classCode="OBS" moodCode="EVN">
+<code code="103.16519" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Subject Position"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Subject Position</value>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="SPRT">
+<observationMedia ID="b16ca9c7-9218-4763-bf34-7871be015721" classCode="OBS" moodCode="EVN">
+<id root="085ffc7b-92db-4fb1-b20b-db61178bbf82"/>
+<value integrityCheck="xARVz193m689kRoZe0c6ZXJ2wvs=" mediaType="image/jpeg">
+<reference value="x-ray.jpg"/>
+</value>
+</observationMedia>
+</entryRelationship>
+</observation>
+</entryRelationship>
+</act>
+</entryRelationship>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<observation classCode="OBS" moodCode="EVN">
+<id root="4223c2c5-fe54-4e4d-9be5-c065a080018e"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.16589" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Imaging Examination Result DateTime" xsi:type="CE"/>
+<effectiveTime value="20130102"/>
+</observation>
+</entryRelationship>
+</observation>
+</entry>
+</section>
+</component>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section>
+<code code="101.16022" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Medications"/>
+<title>Medications</title>
+<text>
+<paragraph>This section contains the following subsections: Pathology Test Result, Imaging Examination Result and Requested Service(s).</paragraph>
+</text>
+<component>
+<section>
+<code code="101.16146.4.1.1" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Current Medications on Discharge"/>
+<title>Current Medications on Discharge</title>
+<text>
+<table>
+<caption>Current Medications On Discharge &gt; Therapeutic Goods</caption>
+<thead>
+<tr>
+<th>Identification</th>
+<th>Unit of Qty</th>
+<th>Dosage Instruc.</th>
+<th>Reason</th>
+<th>Additional Comments</th>
+<th>Item Status</th>
+<th>Reason for Change (Med. History)</th>
+<th>Changes Made (Med. History)</th>
+<th>Medication Duration (Med. History)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>paracetamol 500 mg + codeine phosphate hemihydrate 30 mg tablet</td>
+<td>25 tablets</td>
+<td>2 tablets daily after breakfast</td>
+<td>Pain control</td>
+<td>Dosage to be reviewed in 10 days</td>
+<td>Prescribed</td>
+<td>Optimise drug therapy.</td>
+<td>Drug dosage altered</td>
+<td>5 Mar 2019 -&gt; 27 Apr 2022</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<id root="01f508fe-6c28-4b32-964f-2331ff3a199f"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">2 tablets daily after breakfast</text>
+<statusCode code="active"/>
+<effectiveTime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="IVL_TS">
+<low value="20190305"/>
+<high value="20220427"/>
+</effectiveTime>
+<consumable>
+<manufacturedProduct>
+<manufacturedMaterial>
+<code code="79115011000036100" codeSystem="2.16.840.1.113883.6.96" codeSystemName="Australian Medicines Terminology module" displayName="paracetamol 500 mg + codeine phosphate hemihydrate 30 mg tablet"/>
+</manufacturedMaterial>
+</manufacturedProduct>
+</consumable>
+<entryRelationship typeCode="REFR">
+<supply classCode="SPLY" moodCode="EVN">
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">25 tablets</text>
+</supply>
+</entryRelationship>
+<entryRelationship typeCode="RSON">
+<act classCode="INFRM" moodCode="RQO">
+<id root="10bd74fc-4d23-4c0e-a7c7-41515a64942d"/>
+<code code="103.10141" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Reason for Therapeutic Good"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Pain control</text>
+</act>
+</entryRelationship>
+<entryRelationship typeCode="COMP">
+<act classCode="INFRM" moodCode="EVN">
+<id root="6a9e1d4e-23e4-422d-a82f-4e085fe027ed"/>
+<code code="103.16044" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Additional Comments"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Dosage to be reviewed in 10 days</text>
+</act>
+</entryRelationship>
+<entryRelationship inversionInd="true" typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN">
+<id root="51b584ea-46c9-45aa-826d-3dca49048d75"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="105681000036100" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" codeSystemVersion="20110531" displayName="Prescribed" xsi:type="CE"/>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="SPRT">
+<observation classCode="OBS" moodCode="EVN">
+<id root="d6f24016-959f-44e4-90a7-167ce2befba3"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="182877009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Drug dosage altered" xsi:type="CE"/>
+<entryRelationship typeCode="RSON">
+<act classCode="INFRM" moodCode="EVN">
+<id root="9f977d5e-b675-42b9-b4e8-8001e04e11f2"/>
+<code code="103.10177" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Reason for Change"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Optimise drug therapy.</text>
+</act>
+</entryRelationship>
+</observation>
+</entryRelationship>
+</substanceAdministration>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="101.16146.4.1.2" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Ceased Medications"/>
+<title>Ceased Medications</title>
+<text>
+<table>
+<caption>Ceased Medications &gt; Therapeutic Goods</caption>
+<thead>
+<tr>
+<th>Identification</th>
+<th>Unit of Qty</th>
+<th>Dosage Instruc.</th>
+<th>Reason</th>
+<th>Additional Comments</th>
+<th>Item Status</th>
+<th>Reason for Change (Med. History)</th>
+<th>Changes Made (Med. History)</th>
+<th>Medication Duration (Med. History)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>paracetamol 500 mg + codeine phosphate hemihydrate 30 mg tablet</td>
+<td/>
+<td>NA</td>
+<td/>
+<td/>
+<td>Changed</td>
+<td>Side effect</td>
+<td>Medication discontinued</td>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<id root="a2997c47-063a-4145-8638-88be2a5a29af"/>
+<statusCode code="cancelled"/>
+<consumable>
+<manufacturedProduct>
+<manufacturedMaterial>
+<code code="79115011000036100" codeSystem="2.16.840.1.113883.6.96" codeSystemName="Australian Medicines Terminology module" displayName="paracetamol 500 mg + codeine phosphate hemihydrate 30 mg tablet"/>
+</manufacturedMaterial>
+</manufacturedProduct>
+</consumable>
+<entryRelationship inversionInd="true" typeCode="SUBJ">
+<observation classCode="OBS" moodCode="EVN">
+<id root="3c2376f7-d84f-4cc6-800b-3621e86e2b38"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="105691000036103" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Changed" xsi:type="CE"/>
+</observation>
+</entryRelationship>
+<entryRelationship typeCode="SPRT">
+<observation classCode="OBS" moodCode="EVN">
+<id root="f82eb435-a338-4520-86ba-2670dac9bc71"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="274512008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Medication discontinued" xsi:type="CE"/>
+<entryRelationship typeCode="RSON">
+<act classCode="INFRM" moodCode="EVN">
+<id root="39929b75-f148-4ea5-9cf4-b1cf3ecc4e30"/>
+<code code="103.10177" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Reason for Change"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Side effect</text>
+</act>
+</entryRelationship>
+</observation>
+</entryRelationship>
+</substanceAdministration>
+</entry>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section>
+<id root="f58bf522-a622-49da-9ec3-3529e4ed213c"/>
+<code code="101.16020" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Plan"/>
+<title>Plan</title>
+<text mediaType="text/x-hl7-text+xml">
+<paragraph>This section contains the following subsections: Follow-up Appointments and Record Of Recommendations And Information Provided.</paragraph>
+</text>
+<component>
+<section>
+<id root="fd78391c-b602-40e8-a7a2-5fa45c8e450f"/>
+<code code="101.16021" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Arranged Services"/>
+<title>Arranged Services</title>
+<text>
+<paragraph styleCode="Bold Underline">Arranged Services</paragraph>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td styleCode="Bold">Description</td>
+<td>Orthopaedic outpatient clinic appointment</td>
+</tr>
+<tr>
+<td styleCode="Bold">Booking Status</td>
+<td>Intent</td>
+</tr>
+<tr>
+<td styleCode="Bold">Service Commencement Window</td>
+<td>7 Mar 2019 -&gt; 15 Mar 2019</td>
+</tr>
+<tr>
+<td colspan="2" styleCode="Bold">Protocol Service Provider:</td>
+</tr>
+<tr>
+<td colspan="2">
+<list>
+<item>Dr John Smith Snr</item>
+<item>Registered Name (Legal Name)</item>
+<item>
+<list>
+<caption>Addresses for Healthcare Provider</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Healthcare Provider</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Organization Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Employment Type: Permanent</item>
+<item>Occupation: Medical Oncologist</item>
+<item>Position in Organisation: Medical Oncologist</item>
+<item>Department: Some department service provider</item>
+<item>Organisation Name: Brisbane Health &amp; Wellness Clinic, Usage: Business name</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Addresses for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+</list>
+</item>
+</list>
+</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry>
+<act classCode="ACT" moodCode="INT">
+<id root="b6f6f7d3-1be9-4342-ad14-3e7c23969d74"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE">
+<originalText>Orthopaedic outpatient clinic appointment</originalText>
+</code>
+<effectiveTime>
+<low value="20190307"/>
+<high value="20190315"/>
+</effectiveTime>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="4efc98f6-c70a-44ec-9e2a-050cfb7e027c"/>
+<code code="252511" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Physiotherapist">
+<originalText>Physiotherapist</originalText>
+</code>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<assignedPerson>
+<name use="L">
+<prefix>Dr</prefix>
+<family>Smith</family>
+<given>John</given>
+<suffix>Snr</suffix>
+</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-I" root="1.2.36.1.2001.1003.0.8003610000001145"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+<ns2:asEmployment classCode="EMP">
+<ns2:code code="253314" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Medical Oncologist">
+<originalText>Medical Oncologist</originalText>
+</ns2:code>
+<ns2:jobCode code="253314" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Medical Oncologist">
+<originalText>Medical Oncologist</originalText>
+</ns2:jobCode>
+<ns2:jobClassCode code="1" codeSystem="2.16.840.1.113883.3.879.314867" codeSystemName="Employment type" displayName="Permanent"/>
+<ns2:employerOrganization>
+<name use="ORGB">Brisbane Health &amp; Wellness Clinic</name>
+<asOrganizationPartOf>
+<wholeOrganization>
+<name>Brisbane Health &amp; Wellness Clinic</name>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003620000045562"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</wholeOrganization>
+</asOrganizationPartOf>
+</ns2:employerOrganization>
+</ns2:asEmployment>
+<ns2:asQualifications classCode="QUAL">
+<ns2:code>
+<originalText>MBBS MS</originalText>
+</ns2:code>
+</ns2:asQualifications>
+</assignedPerson>
+</assignedEntity>
+</performer>
+</act>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="101.20016" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Record of Recommendations and Information Provided"/>
+<title>Record of Recommendations and Information Provided</title>
+<text>
+<table>
+<caption>Recommendations Provided</caption>
+<thead>
+<tr>
+<th>Recommendation Note</th>
+<th>Recommendation Recipient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Recommendation Note</td>
+<td>
+<list>
+<item>Dr John Smith Snr</item>
+<item>Registered Name (Legal Name)</item>
+<item>
+<list>
+<caption>Addresses for Healthcare Provider</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Healthcare Provider</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Organization Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Employment Type: Permanent</item>
+<item>Occupation: Medical Oncologist</item>
+<item>Position in Organisation: Medical Oncologist</item>
+<item>Department: Some department service provider</item>
+<item>Organisation Name: Brisbane Health &amp; Wellness Clinic, Usage: Business name</item>
+<item>
+<list>
+<caption>Electronic Communication Details for Brisbane Health &amp; Wellness Clinic</caption>
+<item>
+<content>
+<linkHtml href="mail@blah.com">mail@blah.com</linkHtml>
+</content>
+</item>
+</list>
+</item>
+<item>
+<list>
+<caption>Addresses for Brisbane Health &amp; Wellness Clinic</caption>
+<item>Business: 1 Clinician Street, Nehtaville, QLD, 5555</item>
+</list>
+</item>
+</list>
+</item>
+</list>
+</td>
+</tr>
+</tbody>
+</table>
+<list>
+<caption>Info provided to Subject of Care or Related Parties</caption>
+<item>Information Provided To Subject Of Care and/or Relevant Parties</item>
+</list>
+</text>
+<entry>
+<act classCode="INFRM" moodCode="PRP">
+<id root="0093a3ff-42b4-49b9-8d4e-c45a3be777ad"/>
+<code code="102.20016.4.1.1" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Recommendations Provided"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Recommendation Note</text>
+<performer typeCode="PRF">
+<assignedEntity>
+<id root="d5977eee-87dc-42e1-8227-695a9394547b"/>
+<code code="252511" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Physiotherapist">
+<originalText>Physiotherapist</originalText>
+</code>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<assignedPerson>
+<name use="L">
+<prefix>Dr</prefix>
+<family>Smith</family>
+<given>John</given>
+<suffix>Snr</suffix>
+</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-I" root="1.2.36.1.2001.1003.0.8003610000001145"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+<ns2:asEmployment classCode="EMP">
+<ns2:code code="253314" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Medical Oncologist">
+<originalText>Medical Oncologist</originalText>
+</ns2:code>
+<ns2:jobCode code="253314" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Medical Oncologist">
+<originalText>Medical Oncologist</originalText>
+</ns2:jobCode>
+<ns2:jobClassCode code="1" codeSystem="2.16.840.1.113883.3.879.314867" codeSystemName="Employment type" displayName="Permanent"/>
+<ns2:employerOrganization>
+<name use="ORGB">Brisbane Health &amp; Wellness Clinic</name>
+<asOrganizationPartOf>
+<wholeOrganization>
+<name>Brisbane Health &amp; Wellness Clinic</name>
+<telecom use="WP" value="mailto:mail@blah.com"/>
+<addr use="WP">
+<streetAddressLine>1 Clinician Street</streetAddressLine>
+<city>Nehtaville</city>
+<state>QLD</state>
+<postalCode>5555</postalCode>
+<country>Australia</country>
+</addr>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003620000045562"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</wholeOrganization>
+</asOrganizationPartOf>
+</ns2:employerOrganization>
+</ns2:asEmployment>
+<ns2:asQualifications classCode="QUAL">
+<ns2:code>
+<originalText>MBBS MS</originalText>
+</ns2:code>
+</ns2:asQualifications>
+</assignedPerson>
+</assignedEntity>
+</performer>
+</act>
+</entry>
+<entry>
+<act classCode="INFRM" moodCode="EVN">
+<id root="a7e4dcc6-7439-4516-95eb-a94d4310490c"/>
+<code code="102.20016.4.1.2" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Information Provided"/>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">Information Provided To Subject Of Care and/or Relevant Parties</text>
+</act>
+</entry>
+</section>
+</component>
+</section>
+</component>
+<component>
+<section>
+<code code="102.16080" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Administrative Observations"/>
+<title>Administrative Observations</title>
+<text>
+<table>
+<caption>Demographic Data</caption>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Date Of Birth is Calculated from Age</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Date of Birth Accuracy Indicator</td>
+<td>AAA</td>
+</tr>
+<tr>
+<td>Birth Plurality</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Age Accuracy Indicator</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>35</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<id root="1f64b090-0ae0-4aef-98c6-89c163e28ac1"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.16233" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Date of Birth is Calculated From Age" xsi:type="CE"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true" xsi:type="BL"/>
+</observation>
+</entry>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<id root="f0ba7e58-8204-4b26-ab99-58e5b8ebd865"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="102.16234" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Date of Birth Accuracy Indicator" xsi:type="CE"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="AAA" xsi:type="CS"/>
+</observation>
+</entry>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<id root="6337c74d-2e0b-4e8d-9ca3-455ff2a70690"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.20109" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Age" xsi:type="CE"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="a" value="35" xsi:type="PQ"/>
+</observation>
+</entry>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<id root="aa03e6e4-26a7-4473-9f97-e51b801231ee"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.16279" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Age Accuracy Indicator" xsi:type="CE"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true" xsi:type="BL"/>
+</observation>
+</entry>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<id root="ce940812-aaf4-4b34-b4d4-ee87bbb76946"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.16249" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Birth Plurality" xsi:type="CE"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="5" xsi:type="INT"/>
+</observation>
+</entry>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<id root="ffce8f95-6ef0-43b4-bcb7-7488dc9b1695"/>
+<code code="408459003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Paediatric cardiology"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.16028" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Specialty" xsi:type="CD"/>
+</observation>
+</entry>
+<ns2:coverage2 typeCode="COVBY">
+<ns2:entitlement classCode="COV" moodCode="EVN">
+<ns2:id assigningAuthorityName="Medicare Card Number" extension="1234567881" root="1.2.36.1.5001.1.0.7.1"/>
+<ns2:code code="1" codeSystem="1.2.36.1.2001.1001.101.104.16047" codeSystemName="NCTIS Entitlement Type Values" displayName="Medicare Benefits">
+<originalText>Medicare Benefits</originalText>
+</ns2:code>
+<ns2:effectiveTime>
+<high value="20220201"/>
+</ns2:effectiveTime>
+<ns2:participant typeCode="BEN">
+<ns2:participantRole classCode="PAT">
+<ns2:id root="8b9c194b-4c63-4e9c-90fa-9e8f93e3bd6a"/>
+</ns2:participantRole>
+</ns2:participant>
+</ns2:entitlement>
+</ns2:coverage2>
+</section>
+</component>
+</structuredBody>
+</component>
+</ClinicalDocument>

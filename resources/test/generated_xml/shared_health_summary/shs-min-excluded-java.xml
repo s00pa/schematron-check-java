@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:ns2="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0">
+<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+<templateId extension="1.4" root="1.2.36.1.2001.1001.101.100.1002.120"/>
+<templateId extension="1.0" root="1.2.36.1.2001.1001.100.149"/>
+<id root="6e853052-b419-4ea9-8b34-b5ec2315f593"/>
+<code code="60591-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Patient summary"/>
+<title>Shared Health Summary</title>
+<effectiveTime value="20210201103334+1000"/>
+<confidentialityCode nullFlavor="NA"/>
+<languageCode code="en-AU"/>
+<versionNumber value="1"/>
+<ns2:completionCode code="F" codeSystem="1.2.36.1.2001.1001.101.104.20104" codeSystemName="NCTIS Document Status Values" displayName="Final"/>
+<recordTarget typeCode="RCT">
+<patientRole classCode="PAT">
+<id root="5fb478b5-b20d-4923-9b9a-420132f65e9b"/>
+<addr use="H">
+<streetAddressLine>The Complex</streetAddressLine>
+<postalCode>4101</postalCode>
+<city>West End</city>
+<state>QLD</state>
+<country>Australia</country>
+</addr>
+<patient>
+<name>
+<family>Harding</family>
+</name>
+<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.13.68" codeSystemName="AS 5017-2006 Health Care Client Identifier Sex" displayName="Male"/>
+<birthTime value="19821128"/>
+<ethnicGroupCode code="9" codeSystem="2.16.840.1.113883.3.879.291036" codeSystemName="METeOR Indigenous Status" displayName="Not stated/inadequately described"/>
+<ns2:multipleBirthInd value="false"/>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="IHI" root="1.2.36.1.2001.1003.0.8003600300001283"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="Medicare Card Number" extension="1234567881" root="1.2.36.1.5001.1.0.7.1"/>
+<ns2:code code="MC" codeSystem="2.16.840.1.113883.12.203" codeSystemName="Identifier Type (HL7)"/>
+</ns2:asEntityIdentifier>
+</patient>
+</patientRole>
+</recordTarget>
+<author>
+<time value="20210201103334+1000"/>
+<assignedAuthor>
+<id root="d7ed5f1f-f12a-4971-81e0-a332ebdaa988"/>
+<code code="272311" codeSystem="2.16.840.1.113883.13.62" codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006" displayName="Clinical Psychologist"/>
+<assignedPerson>
+<name>
+<family>Smith</family>
+</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-I" root="1.2.36.1.2001.1003.0.8003610000001145"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+<ns2:asEmployment classCode="EMP">
+<ns2:employerOrganization>
+<asOrganizationPartOf>
+<wholeOrganization>
+<name>Sarahs Clinic</name>
+<telecom use="WP" value="tel:0212345678"/>
+<addr>
+<streetAddressLine>Unknown</streetAddressLine>
+</addr>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003621231167886"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</wholeOrganization>
+</asOrganizationPartOf>
+</ns2:employerOrganization>
+</ns2:asEmployment>
+</assignedPerson>
+</assignedAuthor>
+</author>
+<custodian>
+<assignedCustodian>
+<representedCustodianOrganization>
+<id root="002187b2-2f4c-4460-adc1-8d67cd27ce69"/>
+<name>Clinical Documents R Us</name>
+<ns2:asEntityIdentifier classCode="IDENT">
+<ns2:id assigningAuthorityName="HPI-O" root="1.2.36.1.2001.1003.0.8003621231167886"/>
+<ns2:assigningGeographicArea classCode="PLC">
+<ns2:name>National Identifier</ns2:name>
+</ns2:assigningGeographicArea>
+</ns2:asEntityIdentifier>
+</representedCustodianOrganization>
+</assignedCustodian>
+</custodian>
+<legalAuthenticator>
+<time value="20210201103334+1000"/>
+<signatureCode code="S"/>
+<assignedEntity>
+<id root="9d75537b-094c-45cf-8d6b-2aef3ce0568a"/>
+</assignedEntity>
+</legalAuthenticator>
+<component>
+<structuredBody>
+<component>
+<section>
+<id root="c517ac63-4e08-4cc6-8085-c8457817024f"/>
+<code code="101.20113" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Adverse Reactions"/>
+<title>Adverse Reactions</title>
+<text>
+<paragraph>No Adverse Reactions are supplied</paragraph>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="c517ac63-4e08-4cc6-8085-c8457817024f"/>
+<code code="103.16302.120.1.1" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Global Statement"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="01" codeSystem="1.2.36.1.2001.1001.101.104.16299" codeSystemName="NCTIS Global Statement Values" displayName="None known" xsi:type="CD"/>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="101.16146" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Medication Orders"/>
+<title>Medications</title>
+<text>
+<paragraph>No Medications are supplied</paragraph>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="65ef6191-8534-4fa6-947e-64fce0131dc3"/>
+<code code="103.16302.120.1.2" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Global Statement"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="01" codeSystem="1.2.36.1.2001.1001.101.104.16299" codeSystemName="NCTIS Global Statement Values" displayName="None known" xsi:type="CD"/>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="101.16117" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Medical History"/>
+<title>Medical History</title>
+<text>
+<paragraph>No Problem Diagnosis are supplied</paragraph>
+<paragraph>No Procedures are supplied</paragraph>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="65c1f07f-1529-434f-9168-13770d609fe9"/>
+<code code="103.16302.120.1.3" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Global Statement"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="01" codeSystem="1.2.36.1.2001.1001.101.104.16299" codeSystemName="NCTIS Global Statement Values" displayName="None known" xsi:type="CD"/>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="f532c953-f9bc-4f20-8ba0-a545db3d9978"/>
+<code code="103.16302.120.1.4" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Global Statement"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="01" codeSystem="1.2.36.1.2001.1001.101.104.16299" codeSystemName="NCTIS Global Statement Values" displayName="None known" xsi:type="CD"/>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="101.16638" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Immunisations"/>
+<title>Immunisations</title>
+<text>
+<paragraph>No Immunisations are supplied</paragraph>
+</text>
+<entry>
+<observation classCode="OBS" moodCode="EVN">
+<id root="a7eed485-2984-456e-9d6d-b7e5c192befe"/>
+<code code="103.16302.120.1.5" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Global Statement"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="03" codeSystem="1.2.36.1.2001.1001.101.104.16299" codeSystemName="NCTIS Global Statement Values" displayName="None supplied" xsi:type="CD"/>
+</observation>
+</entry>
+</section>
+</component>
+<component>
+<section>
+<code code="102.16080" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Administrative Observations"/>
+<title>Administrative Observations</title>
+<text>
+<table>
+<caption>Demographic Data</caption>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Age Accuracy Indicator</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>38</td>
+</tr>
+</tbody>
+</table>
+</text>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<id root="cfaafcaf-8449-4854-a58b-02baadfe1532"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.20109" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Age" xsi:type="CE"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="a" value="38" xsi:type="PQ"/>
+</observation>
+</entry>
+<entry typeCode="DRIV">
+<observation classCode="OBS" moodCode="EVN">
+<id root="a4da955f-c1ee-4ec8-837f-a1911b5b8250"/>
+<code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" code="103.16279" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Age Accuracy Indicator" xsi:type="CE"/>
+<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" value="true" xsi:type="BL"/>
+</observation>
+</entry>
+</section>
+</component>
+</structuredBody>
+</component>
+</ClinicalDocument>
