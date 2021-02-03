@@ -3,12 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>au.gov.nehta</groupId>
-    <artifactId>schematron-check-v1</artifactId>
+    <groupId>au.gov.digitalhealth</groupId>
+    <artifactId>schematron-check</artifactId>
     <version>1.1-SNAPSHOT</version>
     <name>Schematron check</name>
     <description>Java utility for HL7 XML checking</description>
-    <url>https://github.com/AuDigitalHealth/schematron-java</url>
+    <url>https://github.com/AuDigitalHealth/schematron-check-java</url>
 
     <developers>
         <developer>
