@@ -24,13 +24,13 @@
         </developer>
     </developers>
 
-    <!-- scm>
-        <connection>scm:git:https://github.com/AuDigitalHealth/clinical-document-library-java.git
+    <scm>
+        <connection>scm:git:https://github.com/AuDigitalHealth/schematron-check-java.git
         </connection>
         <developerConnection>
-            scm:git:https://github.com/AuDigitalHealth/clinical-document-library-java.git
+            scm:git:https://github.com/AuDigitalHealth/schematron-check-java.git
         </developerConnection>
-        <url>https://github.com/AuDigitalHealth/clinical-document-library-java.git</url>
+        <url>https://github.com/AuDigitalHealth/schematron-check-java.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -43,7 +43,7 @@
             <id>nexus-releases</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
-    </distributionManagement -->
+    </distributionManagement>
 
     <dependencies>
         <dependency>
@@ -248,7 +248,7 @@
                 <version>3.0.0-M4</version>
                 <configuration>
                     <showSuccess>false</showSuccess>
-                    <title>CDA Java Library Tests Output</title>
+                    <title>CDA Java Schematron Check Tests Output</title>
                     <outputDirectory>${basedir}/target/surefire-reports</outputDirectory>
                 </configuration>
             </plugin>
