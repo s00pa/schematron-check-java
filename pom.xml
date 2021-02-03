@@ -10,6 +10,14 @@
     <description>Java utility for HL7 XML checking</description>
     <url>https://github.com/AuDigitalHealth/schematron-check-java</url>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <developers>
         <developer>
             <name>Admin Open Source</name>
@@ -61,8 +69,8 @@
 
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <encoding>UTF-8</encoding>
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
@@ -296,19 +304,8 @@
             </plugin>
         </plugins>
     </build>
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
 
     <repositories>
-        <repository>
-            <id>lib-dir-repo</id>
-            <url>file://${project.basedir}/src/main/resources/lib</url>
-        </repository>
         <repository>
             <id>Edinburgh PH</id>
             <name>Edinburgh PH Repository</name>
