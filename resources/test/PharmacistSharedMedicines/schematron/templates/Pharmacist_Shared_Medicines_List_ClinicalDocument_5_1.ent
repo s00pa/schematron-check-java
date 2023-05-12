@@ -390,7 +390,7 @@ ________________________________________________________________________________
     </assert>
 
     <assert test="not(@code) or normalize-space(@code) = '' or
-                document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'NCTIS_Document_Status_Values']/code[(@code = current()/@code)]"
+                document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'NCTIS_Document_Status_Values']/code[(@code = current()/@code)]"
     >Error: Pharmacist Shared Medicines List - 5.1 Clinical Document -
       "ClinicalDocument/ext:completionCode" -
       The 'completionCode' tag 'code' attribute shall be as per NCTIS: Admin Codes - Document
@@ -435,7 +435,7 @@ ________________________________________________________________________________
 
     <report test="@code and normalize-space(@code) != '' and
                 @displayName and normalize-space(@displayName) != '' and
-                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system [@codeSystemName = 'NCTIS_Document_Status_Values']/code[
+                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system [@codeSystemName = 'NCTIS_Document_Status_Values']/code[
                     (@code = current()/@code) and (
                     translate(@displayName,  'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') =
                     translate(current()/@displayName, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))])"

@@ -320,7 +320,7 @@ ________________________________________________________________________________
     </assert>
 
     <assert test="not(@code) or normalize-space(@code) = '' or
-                document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'AS_5017-2006_Health_Care_Client_Identifier_Sex']/code[(@code = current()/@code)]"
+                document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'AS_5017-2006_Health_Care_Client_Identifier_Sex']/code[(@code = current()/@code)]"
     >Error: Pharmacist Shared Medicines List - 6.1.1 SUBJECT OF CARE -
       "SUBJECT OF CARE / Participant / Person or Organisation or Device / Person / Demographic Data
       / Sex" -
@@ -370,7 +370,7 @@ ________________________________________________________________________________
 
     <report test="@code and normalize-space(@code) != '' and
                 @displayName and normalize-space(@displayName) != '' and
-                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system [@codeSystemName = 'AS_5017-2006_Health_Care_Client_Identifier_Sex']/code[
+                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system [@codeSystemName = 'AS_5017-2006_Health_Care_Client_Identifier_Sex']/code[
                     (@code = current()/@code) and (
                     translate(@displayName,  'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') =
                     translate(current()/@displayName, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))])"
@@ -548,7 +548,7 @@ ________________________________________________________________________________
     </assert>
 
     <assert test="not(@code) or normalize-space(@code) = '' or
-                document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'METeOR_Indigenous_Status']/code[(@code = current()/@code)]"
+                document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'METeOR_Indigenous_Status']/code[(@code = current()/@code)]"
     >Error: Pharmacist Shared Medicines List - 6.1.1 SUBJECT OF CARE -
       "SUBJECT OF CARE / Participant / Person or Organisation or Device / Person / Demographic Data
       / Indigenous Status" -
@@ -606,7 +606,7 @@ ________________________________________________________________________________
 
     <report test="@code and normalize-space(@code) != '' and
                 @displayName and normalize-space(@displayName) != '' and
-                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system [@codeSystemName = 'METeOR_Indigenous_Status']/code[
+                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system [@codeSystemName = 'METeOR_Indigenous_Status']/code[
                     (@code = current()/@code) and (
                     translate(@displayName,  'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') =
                     translate(current()/@displayName, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))])"

@@ -227,7 +227,7 @@
       test="
                 (not(cda:country) or (translate(cda:country, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') = 'AUSTRALIA')) and
                 cda:state and
-                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Australian_State_Territory_Identifier_-_Postal']/code[(@code = current()/cda:state)])"
+                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Australian_State_Territory_Identifier_-_Postal']/code[(@code = current()/cda:state)])"
     >Error: Pharmacist Shared Medicines List - 6.1.1 Subject of Care - "Subject of Care /
       Participant / Person
       or Organisation or Device / Person / Demographic Data / State/Territory of Birth" -

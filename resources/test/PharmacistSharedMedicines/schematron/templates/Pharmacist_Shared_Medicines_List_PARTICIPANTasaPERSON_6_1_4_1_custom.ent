@@ -45,7 +45,7 @@
     <report
       test="
                     @nullFlavor and normalize-space(@nullFlavor) != '' and
-                    (document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Coded_DataType_NullFlavor_Abnormal_Values']/code[
+                    (document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Coded_DataType_NullFlavor_Abnormal_Values']/code[
                     (@code = current()/@nullFlavor)])"
     >Error: Pharmacist Shared Medicines List - 6.1.4.1 PARTICIPANT as a PERSON -
       "PARTICIPANT / Role" - The 'code' tag 'nullFlavor' attribute shall not be

@@ -1385,8 +1385,8 @@
                 (
                     string-length(@extension) = 8 and
                     number(substring(@extension, 1, 6)) = floor(substring(@extension, 1, 6)) and
-                    document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Medicare_Provider_Number_Practice_Location']/code[@displayName = substring(current()/@extension, 7, 1)] and
-                    document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Medicare_Provider_Number_Check_Digit']/code[@displayName = substring(current()/@extension, 8, 1)]
+                    document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Medicare_Provider_Number_Practice_Location']/code[@displayName = substring(current()/@extension, 7, 1)] and
+                    document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Medicare_Provider_Number_Check_Digit']/code[@displayName = substring(current()/@extension, 8, 1)]
                 )"
     >Error: Pharmacist Shared Medicines List -
       Global Clinical Document check for 'id' tag -
@@ -1409,8 +1409,8 @@
                 not(
                     string-length(@extension) = 8 and
                     number(substring(@extension, 1, 6)) = floor(substring(@extension, 1, 6)) and
-                    document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Medicare_Provider_Number_Practice_Location']/code[@displayName = substring(current()/@extension, 7, 1)] and
-                    document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Medicare_Provider_Number_Check_Digit']/code[@displayName = substring(current()/@extension, 8, 1)]
+                    document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Medicare_Provider_Number_Practice_Location']/code[@displayName = substring(current()/@extension, 7, 1)] and
+                    document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Medicare_Provider_Number_Check_Digit']/code[@displayName = substring(current()/@extension, 8, 1)]
                 ) or
                 (
                    ((number(substring(@extension, 1, 1)) * 3) +
@@ -1419,9 +1419,9 @@
                     (number(substring(@extension, 4, 1)) * 4) +
                     (number(substring(@extension, 5, 1)) * 2) +
                     (number(substring(@extension, 6, 1)) * 1) +
-                    (number(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Medicare_Provider_Number_Practice_Location']/code[@displayName = substring(current()/@extension, 7, 1)]/@code) * 6)
+                    (number(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Medicare_Provider_Number_Practice_Location']/code[@displayName = substring(current()/@extension, 7, 1)]/@code) * 6)
                     ) mod 11 =
-                    (number(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Medicare_Provider_Number_Check_Digit']/code[@displayName = substring(current()/@extension, 8, 1)]/@code))
+                    (number(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Medicare_Provider_Number_Check_Digit']/code[@displayName = substring(current()/@extension, 8, 1)]/@code))
                 )"
     >Error: Pharmacist Shared Medicines List -
       Global Clinical Document check for 'id' tag -
@@ -3617,7 +3617,7 @@
     <report test="
                 ext:name and
                 normalize-space(ext:name) != '' and
-                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'AS_5017-2006_Health_Care_Client_Identifier_Geographic_Area']
+                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'AS_5017-2006_Health_Care_Client_Identifier_Geographic_Area']
                 /code[translate(@displayName, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') =
                 translate(current()/ext:name, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')])"
     >Error: Pharmacist Shared Medicines List - Global Clinical Document check for
@@ -4053,7 +4053,7 @@
     <report test="
                 (not(cda:country) or translate(cda:country, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') = 'AUSTRALIA') and
                 cda:state and
-                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml', .)/systems/system[@codeSystemName = 'Australian_State_Territory_Identifier_-_Postal']/code[@code = current()/cda:state])"
+                not(document('TEMPLATE/VALDN/CDAValidate_Vocabs.xml')/systems/system[@codeSystemName = 'Australian_State_Territory_Identifier_-_Postal']/code[@code = current()/cda:state])"
     >Error: Pharmacist Shared Medicines List - Global Clinical Document check for 'addr' tag -
       "Address / Australian or International Address / Australian Address /
       Australian State/Territory" - The 'state' tag shall be as per 'AS 5017-2006' -
